@@ -1,7 +1,10 @@
-import MyComponent from './MyComponent';
-import Counter from './Counter';
+import Counter from "./Counter";
+import IterationSample from "./IterationSample";
+import Info from "./Info";
+import Average from "./Average";
+
 const App = () => {
-  return <Counter />;
+  return <Average />;
 };
 
 export default App;
