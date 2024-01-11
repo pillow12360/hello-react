@@ -1,10 +1,7 @@
-import Counter from "./Counter";
-import IterationSample from "./IterationSample";
-import Info from "./Info";
-import Average from "./Average";
+import QuantitySelector from "./QuantitySelector";
 
 const App = () => {
-  return <Average />;
+  return <QuantitySelector />;
 };
 
 export default App;
