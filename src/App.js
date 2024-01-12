@@ -1,7 +1,11 @@
-import QuantitySelector from "./QuantitySelector";
+import WeatherInfo from "./WeatherInfo";
 
 const App = () => {
-  return <QuantitySelector />;
+  return (
+    <>
+      <WeatherInfo />
+    </>
+  );
 };
 
 export default App;
