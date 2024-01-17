@@ -1,11 +1,8 @@
-import WeatherInfo from "./WeatherInfo";
+import React from "react";
+import CounterReducer from "./CounterReducer";
 
-const App = () => {
-  return (
-    <>
-      <WeatherInfo />
-    </>
-  );
-};
+function App() {
+  return <CounterReducer />;
+}
 
 export default App;
